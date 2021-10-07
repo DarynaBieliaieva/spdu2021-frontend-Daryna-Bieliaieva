@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="todoList">
+    <div class="cover-img">
+      <div class="cover-inner">
+        <img src="https://randomuser.me/api/portraits/lego/2.jpg" alt="user-logo" height="100" width="100"/>
+      </div>
+    </div>
+
+     <div class="list">
+        <p>My Tasks</p>
+      </div>
+
+    <div class="content">
+      <ul id="todos">
+    <li>
+      <label>
+        <input type="checkbox">
+        <span>Wake up</span>
+      </label>
+    </li>
+    
+    <li>
+      <label>
+        <input type="checkbox">
+        <span>Pay bills</span>
+      </label>
+    </li>
+
+    <li>
+      <label>
+        <input type="checkbox">
+        <span>Buy Coffee</span>
+      </label>
+    </li>
+  </ul>
+
+  <form>
+  <input id="itemText" type="text">
+  <button id="add">ADD TO LIST</button>
+  </form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
